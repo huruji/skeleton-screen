@@ -4,6 +4,6 @@ Another react skeleton screen component
 
 ## example
 
-![](./skeleton-example.gif)
+![](./example.gif)
 
 see [Example](./example/README.md)
