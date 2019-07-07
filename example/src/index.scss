@@ -1,0 +1,73 @@
+@import '~primer-base/build/build.css';
+html {
+	font-size: 20px;
+	font-size: 5.3333333vw;
+	color: #000;
+}
+@media (min-width: 540px) {
+	html {
+		font-size: 28px;
+	}
+}
+@media (min-width: 320px) {
+	html {
+		font-size: 17px;
+	}
+}
+body {
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 540px;
+	background: #fff;
+	padding: 0 15px;
+	font-size: 14px;
+	font-family: -apple-system, Helvetica, sans-serif;
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100% !important;
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.menu-title {
+	margin-top: 2rem;
+	font-size: 1.25rem;
+}
+
+.list-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-item-img {
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+}
+.list-item-name {
+	margin-top: 0.5rem;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.user-container {
+	display: flex;
+}
+.user-avatar {
+	border-radius: 50%;
+	height: 2.5rem;
+	width: 2.5rem;
+	margin-right: 1rem;
+}
+.user-info-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.answer-content {
+	margin-top: 1.5rem;
+}
+.user-name {
+	margin-bottom: 5px;
+}
+.user-des {
+	font-size: 0.8rem;
+	color: #aaa;
+}
