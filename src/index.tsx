@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './index.css'
+
 interface SkeletonProps {
 	count?: number
 	width?: number | string

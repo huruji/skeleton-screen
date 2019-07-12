@@ -116,7 +116,7 @@ typings/
 
 ##
 .vscode
-
+.rpt2_cache
 .rts2_cache
 
 .rts2_cache_cjs/**/*
